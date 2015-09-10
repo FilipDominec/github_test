@@ -18,5 +18,6 @@ class PlasmonicSpheres(meep_utils.AbstractMeepModel):
         self.register_locals(locals())          ## Remember the parameters
         print 'self.simulation_name', self.simulation_name
 		SOME PUBLIC MODIFICATION
+		ANOTHER PUBLIC IMPROVEMENT
         print comment
 
