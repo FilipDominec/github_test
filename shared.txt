@@ -3,7 +3,7 @@ class PlasmonicSpheres(meep_utils.AbstractMeepModel):
             radius=10e-9, cthick=40e-9, loss=1, epsilon=2.1):
         meep_utils.AbstractMeepModel.__init__(self)        ## Base class initialisation
 
-		POSTGOETHIAN FIX =========================
+		POSTGOETHIAN FIX xxxxxxxxxxxxxxxxxxxxxxxxx
         ## Constant parameters for the simulation
         self.simulation_name = "PlasmonicSpheres"    
         self.src_freq, self.src_width = 100e12, 4000e12    # [Hz] (note: gaussian source ends at t=10/src_width)
